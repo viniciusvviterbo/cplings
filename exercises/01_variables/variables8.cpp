@@ -30,9 +30,9 @@ void init_words(){
     len = words.size(); // Only those 3 words should be accessed
 }
 
-const std::string secret_key = "Encrypted S3cr3t!";
+const std::string secret_key = "";
 
-std::string test_danger_loop(uint32_t  query_idx) { // Use safe<> type
+std::string test_danger_loop(uint32_t query_idx) { // Use safe<> type
     // Tip: if you cannot find the problem replace all uint32_t with 
     // safe<uint32_t>, from the boost::safe_numerics library
     // The safe<uint32_t> will throw an exception to help you find the bug
